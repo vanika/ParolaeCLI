@@ -1,10 +1,9 @@
-from enum import Enum
 import os
 from rich import print
 from rich.console import Console
 from rich.live import Live
 from rich.table import Table
-from parolae import Parolae
+from ParolaeCLI.src.parolae import Parolae
 
 ATTEMPTS = 6
 

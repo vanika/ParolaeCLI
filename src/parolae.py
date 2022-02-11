@@ -7,7 +7,7 @@ from utils import CharacterMatch
 
 
 def get_default_dictionary() -> Set[str]:
-    with open("word_dictionary.txt", "r") as file_words_dict:
+    with open("../word_dictionary.txt", "r") as file_words_dict:
         words_dict = set()
         for line in file_words_dict:
             words_dict.add(line.strip())
